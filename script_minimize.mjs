@@ -190,6 +190,7 @@ function animate() {
 
       velocity.y = Math.max(0, velocity.y);
       canJump = true;
+
     }
 
     controls.moveRight(- velocity.x * delta);
